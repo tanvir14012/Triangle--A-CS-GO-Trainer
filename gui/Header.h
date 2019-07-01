@@ -1,0 +1,10 @@
+#pragma once
+#include <windows.h>
+#include <TlHelp32.h>
+#include <iostream>
+#include <cmath>
+#include <cwchar>
+#include <cstdlib>
+#include <ctime>
+#include <sstream>
+#include "ItemDefinition.h"

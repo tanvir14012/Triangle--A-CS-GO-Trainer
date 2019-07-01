@@ -1,0 +1,42 @@
+﻿  MyForm.cpp
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(155): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(159): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(163): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(238): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(288): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(289): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(354): warning C4305: '=': truncation from 'int' to 'float'
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(395): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(452): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(453): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(668): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(669): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(671): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(672): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(709): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(711): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(735): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(736): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(737): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(742): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(742): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(746): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(747): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(748): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(806): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(811): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(816): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(830): warning C4018: '<': signed/unsigned mismatch
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(845): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(1024): warning C4101: 'ViewModelEntityIndex': unreferenced local variable
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(1024): warning C4101: 'activeWeaponEntity': unreferenced local variable
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(1024): warning C4101: 'ViewModel': unreferenced local variable
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(1024): warning C4101: 'activeWeaponId': unreferenced local variable
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(1024): warning C4101: 'activeWeaponIndex': unreferenced local variable
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\myform.h(165): warning C4101: 'e': unreferenced local variable
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\myform.h(1687): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(253): warning C4715: 'Aimbot::getRandomBone': not all control paths return a value
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(1334): warning C4715: 'getPosition': not all control paths return a value
+c:\users\tanvir\documents\visual studio 2017\projects\gui\gui\cheat.h(886): warning C4172: returning address of local variable or temporary: var
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  gui.vcxproj -> C:\Users\TANVIR\Documents\Visual Studio 2017\Projects\gui\Release\gui.exe
