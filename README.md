@@ -8,7 +8,4 @@ in C++. This is one of my hobby project.
 - Windows Form (C++/CLI)
 - Windows GDI (Drawing box, line, player name etc.)
 
-![alt text](https://drive.google.com/open?id=1V8yrEdr9ZGClLACxvWxzwqf01_EdJzCp/view)
-![alt text](https://drive.google.com/open?id=15kRgWGrSkfqaiE977jGl7s_XOerKQz58)
-![alt text](https://drive.google.com/open?id=1VyKPwCy5cyCp0tmV80X6x5Y0TNrBUrqw)
-![alt text](https://drive.google.com/open?id=1HUrtZNaQpd8ftSv85SZW87Ey2s3LWDzC)
+
