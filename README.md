@@ -8,4 +8,7 @@ in C++. This is one of my hobby project.
 - Windows Form (C++/CLI)
 - Windows GDI (Drawing box, line, player name etc.)
 
-
+![Alt text](https://github.com/tanvir14012/Triangle--A-CS-GO-Trainer/blob/master/Screenshot/triangle1.PNG)
+![Alt text](https://github.com/tanvir14012/Triangle--A-CS-GO-Trainer/blob/master/Screenshot/triangle2.PNG)
+![Alt text](https://github.com/tanvir14012/Triangle--A-CS-GO-Trainer/blob/master/Screenshot/triangle3.PNG)
+![Alt text](https://github.com/tanvir14012/Triangle--A-CS-GO-Trainer/blob/master/Screenshot/triangle4.PNG)
