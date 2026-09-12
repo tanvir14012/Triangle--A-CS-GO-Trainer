@@ -12,21 +12,21 @@ Triangle is a Windows desktop trainer for the legacy 32-bit Counter-Strike: Glob
 
 ## Build and run
 
-Install Visual Studio's **Desktop development with C++** workload, **C++/CLI support for v145**, a Windows SDK, and the **.NET Framework 4.8 targeting pack**. Open `gui.sln` and select **Debug | x86** or **Release | x86**.
+Install Visual Studio's **Desktop development with C++** workload, **C++/CLI support for v145**, a Windows SDK, and the **.NET Framework 4.8 targeting pack**. Open `app.sln` and select **Debug | x86** or **Release | x86**.
 
 From a Visual Studio Developer PowerShell:
 
 ```powershell
-msbuild gui.sln /t:Build /p:Configuration=Debug /p:Platform=x86
-msbuild gui.sln /t:Build /p:Configuration=Release /p:Platform=x86
+msbuild app.sln /t:Build /p:Configuration=Debug /p:Platform=x86
+msbuild app.sln /t:Build /p:Configuration=Release /p:Platform=x86
 ```
 
-Executables are written to `build/Win32/Debug/gui.exe` and `build/Win32/Release/gui.exe`. Intermediate files stay under `build/obj`. The solution uses x86 because the legacy process addresses and native stubs are 32-bit; the previous x64 configurations were not a supported port.
+Executables are written to `build/Win32/Debug/app.exe` and `build/Win32/Release/app.exe`. Intermediate files stay under `build/obj`. The solution uses x86 because the legacy process addresses and native stubs are 32-bit; the previous x64 configurations were not a supported port.
 
 Run the executable normally to open the trainer and wait for the legacy game window. To check UI construction without starting game workers or attaching to a process:
 
 ```powershell
-& ./build/Win32/Debug/gui.exe --smoke-test
+& ./build/Win32/Debug/app.exe --smoke-test
 ```
 
 This opens each tab, saves `smoke-0.png` through `smoke-3.png` beside the executable, and exits.
@@ -35,16 +35,16 @@ This opens each tab, saves `smoke-0.png` through `smoke-3.png` beside the execut
 
 | Files | Responsibility |
 | --- | --- |
-| `gui/MyForm.cpp` | STA entry point and UI smoke test |
-| `gui/MyForm.h` | Form declarations and controls |
-| `gui/MyForm.Layout.cpp` | Control creation and page assembly |
-| `gui/MyForm.*Page.cpp` | Named builders for the four pages |
-| `gui/MyForm.Events.cpp` | UI event handlers |
-| `gui/MyForm.Runtime.cpp` | Initialization, skin lists, worker entry points |
-| `gui/Theme.*` | Shared UI colors and typography |
-| `gui/UiSettings.*` | Legacy shared UI settings, defined once |
-| `gui/features/` | Process access, aim, glow, GDI overlay, skins, utilities, offset scanning |
-| `gui/Offsets.*`, `gui/SkinId.*`, `gui/ItemDefinition.h` | Offset storage and item catalogs |
+| `app/MyForm.cpp` | STA entry point and UI smoke test |
+| `app/MyForm.h` | Form declarations and controls |
+| `app/MyForm.Layout.cpp` | Control creation and page assembly |
+| `app/MyForm.*Page.cpp` | Named builders for the four pages |
+| `app/MyForm.Events.cpp` | UI event handlers |
+| `app/MyForm.Runtime.cpp` | Initialization, skin lists, worker entry points |
+| `app/Theme.*` | Shared UI colors and typography |
+| `app/UiSettings.*` | Legacy shared UI settings, defined once |
+| `app/features/` | Process access, aim, glow, GDI overlay, skins, utilities, offset scanning |
+| `app/Offsets.*`, `app/SkinId.*`, `app/ItemDefinition.h` | Offset storage and item catalogs |
 
 Feature headers declare interfaces; implementation belongs in `.cpp` files. Process and drawing objects own their native handles. Catalogs are read-only, and mutable shared data has one definition rather than being instantiated by every header consumer. Visual Studio filters group UI, feature, and data files.
 
