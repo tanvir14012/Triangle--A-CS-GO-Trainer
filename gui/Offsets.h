@@ -1,56 +1,56 @@
 #pragma once
 #include <Windows.h>
-DWORD dwLocalPlayer = 0xCBD6A4;  //will be scanned ...
-DWORD dwGlow = 0x520DA80;        
-DWORD dwEntityList = 0x4CCDC3C;
-DWORD dwCrosshairId = 0xB394;
-DWORD m_hActiveWeapon = 0x2EF8;
+extern DWORD dwLocalPlayer;  //will be scanned ...
+extern DWORD dwGlow;
+extern DWORD dwEntityList;
+extern DWORD dwCrosshairId;
+extern DWORD m_hActiveWeapon;
 
-DWORD m_dwBoneMatrix = 0x26A8;
-DWORD m_vecOrigin = 0x138;
-DWORD m_vecViewOffset = 0x108;
-DWORD dwClientState = 0x58ACFC;
-DWORD dwClientState_State = 0x108;
-DWORD dwClientState_GetLocalPlayer = 0x180;
-DWORD dwClientState_ViewAngles = 0x4D10;
-DWORD m_bSpotted = 0x93D;
-DWORD m_bSpottedByMask = 0x980;
-DWORD m_viewPunchAngle = 0x3020;
-DWORD m_aimPunchAngle = 0x302C;
-DWORD dwForceAttack = 0x30FF2A0;
-DWORD m_iShotsFired = 0xA370;
+extern DWORD m_dwBoneMatrix;
+extern DWORD m_vecOrigin;
+extern DWORD m_vecViewOffset;
+extern DWORD dwClientState;
+extern DWORD dwClientState_State;
+extern DWORD dwClientState_GetLocalPlayer;
+extern DWORD dwClientState_ViewAngles;
+extern DWORD m_bSpotted;
+extern DWORD m_bSpottedByMask;
+extern DWORD m_viewPunchAngle;
+extern DWORD m_aimPunchAngle;
+extern DWORD dwForceAttack;
+extern DWORD m_iShotsFired;
 
-DWORD m_iGlowIndex = 0xA3F8;
-DWORD m_flFlashMaxAlpha = 0xA3DC;
-DWORD  m_fFlags = 0x104;
-DWORD dwForceJump = 0x5170DF0;
-DWORD dwForceForward = 0x30FF2F4;
-DWORD dwbSendPackets = 0xD210A;
-DWORD dwViewMatrix = 0x4CBF614;
-DWORD dwClientState_PlayerInfo = 0x5240;
-DWORD dwRadarBase = 0x510297C;
+extern DWORD m_iGlowIndex;
+extern DWORD m_flFlashMaxAlpha;
+extern DWORD m_fFlags;
+extern DWORD dwForceJump;
+extern DWORD dwForceForward;
+extern DWORD dwbSendPackets;
+extern DWORD dwViewMatrix;
+extern DWORD dwClientState_PlayerInfo;
+extern DWORD dwRadarBase;
 
 
-DWORD m_bDormant = 0xED;
-DWORD dwTeam = 0xF4;
-DWORD dwHealth = 0x100;
+extern DWORD m_bDormant;
+extern DWORD dwTeam;
+extern DWORD dwHealth;
 //Skin
-DWORD  m_nFallbackPaintKit = 0x31B8;
-DWORD m_nFallbackStatTrak = 0x31C4;
-DWORD m_iItemIDHigh = 0x2FC0;
-DWORD m_bInitialized = 0x2FD4;//
-DWORD m_AttributeManager = 0x2D80;
-DWORD m_Item = 0x2DC0;
-DWORD m_OriginalOwnerXuidLow = 0x31B0;
-DWORD m_OriginalOwnerXuidHigh = 0x31B4;
-DWORD m_flFallbackWear = 0x31C0;
-DWORD m_hMyWeapons = 0x2DF8;
-DWORD m_iItemDefinitionIndex = 0x2FAA;
+extern DWORD m_nFallbackPaintKit;
+extern DWORD m_nFallbackStatTrak;
+extern DWORD m_iItemIDHigh;
+extern DWORD m_bInitialized;//
+extern DWORD m_AttributeManager;
+extern DWORD m_Item;
+extern DWORD m_OriginalOwnerXuidLow;
+extern DWORD m_OriginalOwnerXuidHigh;
+extern DWORD m_flFallbackWear;
+extern DWORD m_hMyWeapons;
+extern DWORD m_iItemDefinitionIndex;
 //Knife
-DWORD m_nModelIndex = 0x258;
-DWORD  m_iViewModelIndex = 0x3220;
-DWORD m_iWorldModelIndex = 0x3224;
-DWORD m_hViewModel = 0x32F8;
+extern DWORD m_nModelIndex;
+extern DWORD m_iViewModelIndex;
+extern DWORD m_iWorldModelIndex;
+extern DWORD m_hViewModel;
 
 enum BoneIds
 {
